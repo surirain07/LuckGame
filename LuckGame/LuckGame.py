@@ -19,7 +19,7 @@ if language == "한국어":
 		time.sleep(0.5)
 		site=input("깃허브 사이트 URL 바로가기 (y/n): ")
 		if site == 'y':
-			webbrowser.open("https://github.com/surirain07/LuckGame")
+			webbrowser.open("https://github.com/surirain07/LuckGame/commit/8651dddc5bf36270cf3cd97a7bc9f7ddcf795666")
 		if site == 'n':
 			os._exit(1)
 	else:
@@ -37,7 +37,7 @@ if language == "English":
 			print("Show off to other users through Github's comments!")
 			site = input("Would you like to use the Github site shortcut? (y/n)")
 			if site == 'y':
-				webbrowser.open("https://github.com/surirain07/LuckGame")
+				webbrowser.open("https://github.com/surirain07/LuckGame/commit/8651dddc5bf36270cf3cd97a7bc9f7ddcf795666")
 			if site == 'n':
 				os._exit(1)
 		else:
